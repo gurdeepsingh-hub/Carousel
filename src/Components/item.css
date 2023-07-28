@@ -1,0 +1,21 @@
+.item {
+  position: relative;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.content {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  text-orientation: sideways;
+  color: aliceblue;
+  font-size: 4rem;
+  text-shadow: rgba(0, 0, 0, 0.497) 10px 10px 10px;
+}
+img {
+  image-orientation: from-image;
+  object-fit: contain;
+  image-resolution: 300dpi;
+}
